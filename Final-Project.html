@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ryana Labana Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Ryana Labana</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content">
+
+    <!-- Home Section -->
+    <section id="home" class="hero custom-hero">
+      <div class="intro-container">
+        <div class="profile-pic">
+          <img src="profile.jpg" alt="Profile Picture">
+        </div>
+        <div class="intro-text">
+          <h1>Hi, It's <span class="highlight">Ryana</span></h1>
+          <h2>I'm a <span class="highlight-alt">Web Developer | Student</span></h2>
+          <p>I am passionate about coding, creating meaningful projects, and learning new technologies. Here’s a showcase of my work.</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </div>
+          <a href="#projects" class="button">My Work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="main">
+      <h2>About This Portfolio</h2>
+      <div class="about-card">
+        <h3>Project Description</h3>
+        <p>This personal portfolio website was created as a final project to demonstrate the skills I’ve learned in my first year of college.</p>
+      </div>
+      <div class="about-card">
+        <h3>Technologies Used</h3>
+        <ul><li>HTML</li><li>CSS</li></ul>
+      </div>
+      <div class="about-card">
+        <h3>Purpose</h3>
+        <p>The goal of this site is to showcase my web development skills and highlight the projects I've built, while also offering a clean, responsive, and professional design.</p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-container">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <h3>ATM Machine Simulator</h3>
+          <img src="atm.jpg" alt="ATM Machine Simulator" class="project-img">
+          <p>A functional ATM simulation built using Java. It demonstrates basic banking operations like withdrawals and deposits.<br><strong>Technologies:</strong> Java</p>
+          <a href="https://drive.google.com/drive/folders/1wJy7iT6wpz000b__s_OaGI50aTZaKoWi" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <h3>Python Scientific Calculator</h3>
+          <img src="sci-cal.jpg" alt="Python Scientific Calculator" class="project-img">
+          <p>A scientific calculator built in Python that performs advanced mathematical operations including trigonometric functions, logarithms, exponentiation, square roots, and factorials.<br><strong>Technologies:</strong> Python</p>
+          <a href="https://drive.google.com/drive/folders/1kGXcWhkqb1te8cjzfA7seXTk2_imgZxh" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <h3>Love Envelope</h3>
+          <img src="love-envelope.jpg" alt="Love Envelope" class="project-img">
+          <p>A creative digital envelope where you can write a heartfelt paragraph for a significant other—ideal as a personal gift.<br><strong>Technologies:</strong> HTML & CSS</p>
+          <a href="https://drive.google.com/drive/folders/1883HF97K2t5WHrr-M1AlEXUXn2WxRHvH" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="main">
+      <h2>Contact Me</h2>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name" required />
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your email" required />
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Your message" required></textarea>
+        <button type="submit" disabled>Send Message</button>
+        <p class="note">*This form is not functional. Display only.</p>
+      </form>
+      <div class="contact-info">
+        <p><strong>Email:</strong> ryanamae.labana@cvsu.edu.ph</p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/honestly_rairai?igsh=MWZyZ284OWUzbm5xaQ==" target="_blank">honestly_rairai</a></p>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
